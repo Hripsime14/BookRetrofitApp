@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Book Retrofit App2</string>
+    <string name="click_to_load_data">Click to load data</string>
+</resources>
