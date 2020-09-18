@@ -1,9 +1,12 @@
-package com.example.bookretrofitapp2
+package com.example.bookretrofitapp2.Connector
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View.GONE
 import androidx.lifecycle.*
+import com.example.bookretrofitapp2.Domain.Books
+import com.example.bookretrofitapp2.Presenter.MainViewModel
+import com.example.bookretrofitapp2.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi

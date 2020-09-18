@@ -1,8 +1,10 @@
-package com.example.bookretrofitapp2
+package com.example.bookretrofitapp2.Presenter
 
 import androidx.lifecycle.ViewModel
-import retrofit2.Retrofit
+import com.example.bookretrofitapp2.Data.Repositories.BookRepository
+import com.example.bookretrofitapp2.Domain.Books
 
+//TODO: I don't know if I selected the package right
 class MainViewModel(private val repo: BookRepository, private val key: String): ViewModel() {
 
  /*   private fun getRetrofitInstance(): Retrofit {
@@ -17,7 +19,7 @@ class MainViewModel(private val repo: BookRepository, private val key: String): 
         return createApiService().loadBooks(key)
     }*/
 
-    suspend fun getBooksFromRepo() : Books{
+    suspend fun getBooksFromRepo() : Books {
         return repo.getBooks(key)
     }
 }

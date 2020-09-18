@@ -1,7 +1,8 @@
-package com.example.bookretrofitapp2
+package com.example.bookretrofitapp2.Domain
 
 import com.google.gson.annotations.SerializedName
 
+//TODO: Domain classes created automatically with help of  "Kotlin Data class From JSON" plugin
 data class Result(
     @SerializedName("display_name")
     val displayName: String,

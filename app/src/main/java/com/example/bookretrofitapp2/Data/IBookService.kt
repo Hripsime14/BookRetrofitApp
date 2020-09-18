@@ -1,5 +1,7 @@
-package com.example.bookretrofitapp2
+package com.example.bookretrofitapp2.Data
 
+import com.example.bookretrofitapp2.Domain.Books
+import com.example.bookretrofitapp2.Domain.Result
 import retrofit2.http.GET
 import retrofit2.http.Query
 

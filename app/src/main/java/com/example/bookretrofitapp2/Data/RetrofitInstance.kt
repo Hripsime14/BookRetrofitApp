@@ -1,7 +1,6 @@
-package com.example.bookretrofitapp2
+package com.example.bookretrofitapp2.Data
 
 import retrofit2.Retrofit
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitInstance {
